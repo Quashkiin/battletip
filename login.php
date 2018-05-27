@@ -9,6 +9,7 @@ if (isset($_POST['submit'])){
     $username = mysqli_real_escape_string($connection,$_POST['username']);
     $pwd = mysqli_real_escape_string($connection,$_POST['pwd']);
     
+    
     //error handlers
     //check if inputs are empty
     if(empty($username)||empty($pwd)){
@@ -26,17 +27,31 @@ if (isset($_POST['submit'])){
                 // De-hashing password
                 $hashedPwdCheck = password_verify($pwd,$row['user_pwd']);
                 if($hashedPwdCheck==false){
-                    header("Location: index.php?login=error");
+                    header("Location: index.php?login=error..pw..falsch");
                     exit();
                     //IF user_type = admin ODER IF user_type = user FALLS ADMIN WIR EINE ANDERE SEITE ANGEZEIGT?
                 } elseif($hashedPwdCheck==true){
                     //login the user here
+                   
                     $_SESSION['u_id'] = $row['user_id'];
                     $_SESSION['u_first'] = $row['user_first'];
                     $_SESSION['u_last'] = $row['user_last'];
                     $_SESSION['u_username'] = $row['user_username'];
-                    header("Location: index.php?login=success");
+                    $_SESSION['u_usertype'] = $row['user_type'];
+                    
+                    if($_SESSION['u_usertype']==admin){
+                    header("Location: index.php?login=success_welcomeAdmin");
                     exit();
+                    }
+                    
+                    elseif($_SESSION['u_usertype']==user){
+                    header("Location: index.php?login=success_welcomeUser");
+                    exit();   
+                    }
+                    
+                  
+                    
+                    
                 }
             }
         }

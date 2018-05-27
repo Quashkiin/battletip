@@ -10,7 +10,8 @@ include_once 'header.php';
         
         <?php
 if (isset($_SESSION['u_id'])){
-    echo 'You are now Logged In';
+    $usertype = $_SESSION['u_usertype'];
+    echo "You are now Logged In as $usertype ";
 }
         
 ?>
@@ -33,12 +34,6 @@ if (isset($_SESSION['u_id'])){
             „Jogis Jungs“ den WM-Titeltriumph von 
             2014 wiederholen können. </p>
     </div>
-<?php
-if (isset($_SESSION['u_id'])){
-    echo 'You are now Logged In';
-}
-        
-?>
 
 
 <?php
