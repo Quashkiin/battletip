@@ -1,0 +1,348 @@
+/*Layout Settings*/
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+     grid-template-rows: 100% 100% 100%;
+  grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  /*background-color: blue;*/
+  padding: 10px;
+}
+
+.grid-container > .item1 {
+    font-family: 'Roboto', sans-serif;
+  background-color: #990000;
+  text-align: center;
+    color:white;
+}
+.grid-container > .item2 {
+    font-family: 'Roboto', sans-serif;
+  background-color: #003366;
+  text-align: center;
+}
+.grid-container > .item3 {
+    font-family: 'Roboto', sans-serif;
+  background-color:#003366;
+    color:#ccc;
+  text-align: center;
+
+}
+.grid-container > .item4 {
+    font-family: 'Roboto', sans-serif;
+  background-color:#fff;
+  text-align: center;
+}
+
+
+body{
+    background-color:#ccc;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/*--Header--*/
+.item1 .main-wrapper{
+    margin:10px;
+    
+}
+
+.item1 nav{
+    width:100%;
+    height:60px;
+}
+
+.item1 nav ul{
+    float: left;
+    margin:0;
+    padding:0;
+    margin-left:10px;
+}
+
+.item1 nav ul li{
+    float: left;
+    list-style: none;
+    padding-bottom:5px;
+    
+}
+
+.item1 nav ul li a{
+    font-weight: 600;
+    font-size: 35px;
+    color:#fff;
+    line-height: 63px;
+    font-family: 'Lobster', cursive;
+}
+
+.item1 nav ul li a:hover{
+   color:#ddd;
+}
+
+.item1 .nav-login{
+    float: right;
+}
+
+.item1 .nav-login form{
+    float: left;
+    padding-top: 15px;
+}
+
+.item1 .nav-login form input{
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    line-height: 30px;   
+}
+
+.item1 .nav-login form button{
+    float: left;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    cursor: pointer;
+}
+
+.item1 .nav-login form button:hover{
+    background-color: #ccc;
+}
+
+
+.item1 .nav-login a{
+    display:block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;  
+    margin-right:50px;
+}
+
+/*--ASIDE--*/
+.item2 aside{
+    font-size:16px;
+
+}
+
+
+.item2 ul{
+    margin:0;
+    padding:0;   
+}
+
+.item2 ul li{
+    background-color: #f2f2f2;
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    height:60px;
+    font-weight:700;
+    font-size:17px; 
+}
+
+.item2 a{
+    color:#000;
+    
+}
+
+
+.item2 ul li:hover{
+    background-color: #ddd;
+    transition: linear background 0.3s;
+    transition: linear border 0.2s;
+    border-left: 8px solid #990000;
+        border-right: 8px solid #990000;
+ 
+  
+   
+}
+
+
+/*--MAIN SCREEN--*/
+.item3{
+    min-height: 760px; /* Wieder ändern*/
+    background-image: url("images/wm-img.png");
+    background-size:240px 135px;
+    background-repeat: no-repeat;
+    background-position:top left;
+    
+   
+}
+ 
+.item3 h1{
+   font-family: 'Lobster', cursive;
+    font-weight:600;
+    
+
+}
+
+.item3 p{
+    margin: 10%;
+}
+
+/*-----------FOOTER------------------*/
+.item4 {
+  
+}
+
+.item4 footer{
+   width:100%;   
+}
+
+.item4 footer ul{
+    margin:0;
+    padding:0;  
+    
+}
+
+.item4 footer ul li{
+    width:150px;
+    float: left;
+    list-style: none;
+    border-right: 1px solid #ccc;
+    text-align:center;  
+}
+
+.item4 footer ul li a{
+    text-decoration: none;
+    line-height:50px;
+    color:#000;
+    display:block;
+}
+
+.item4 footer ul li a:hover{
+    background-color:#ddd;
+}
+
+/* register.php */
+
+.item3 .signup-form{
+    padding-top: 80px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.item3 .signup-form input{
+    width: 100%;
+    height: 40px;
+    padding: 0px 5%;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color:#111;
+    line-height: 40px; 
+    margin-bottom: 8px;
+}
+
+.item3 .signup-form input:focus{
+   border-left: 4px solid red;
+    transition: linear background 0.3s;
+    transition: linear border 0.2s;
+}
+
+.item3 .signup-form button{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.item3 .signup-form button:hover{
+    background-color: #111;
+   
+}
+
+
+
+
+/* SPIELVERWALTUNG */
+
+.begegnungen input{
+    width: 40px;
+}
+
+.spieltage a{
+    font-size: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #ccc;
+}
+
+.spieltage a:hover{
+ color:white;
+}
+
+.user_begegnungen{
+    list-style: none;
+    color:black;
+    
+}
+
+.begegnungen-bg{
+    margin: 0px auto;
+ 
+    height:400px;
+    width:450px;
+}
+
+
+.begegnungen-bg ul li{
+    border-bottom: 2px solid grey;
+    margin-top: 10px;
+    text-align: left;
+    background-color: white;
+    
+}
+
+.begegnungen-bg ul li input{
+   width: 40px;
+    margin-left: 10px;
+    
+}
+
+.spieltage-ergebnisse a{
+    font-size: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #ccc;
+}
+
+.spieltage-ergebnisse a:hover{
+  
+    color: white;
+}
