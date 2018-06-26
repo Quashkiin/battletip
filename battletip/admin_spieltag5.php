@@ -11,13 +11,12 @@ include_once 'header.php';
         <h3>Ergebnisse eintragen: </h3>
        
         <div class="begegnungen">
-         Russland <input> : <input> Saudi-Arabien<br>
-          Ägypten <input> : <input> Uruguay<br>
-            Ägypten <input> : <input> Uruguay<br>
-           Ägypten <input> : <input> Uruguay<br>
-           Ägypten <input> : <input> Uruguay<br>
-           Ägypten <input> : <input> Uruguay<br>
-   
+           Belgien     <input> : <input> Tunesien<br>
+           Südkorea    <input> : <input> Mexiko<br>
+           Deutschland <input> : <input> Schweden<br>
+           England     <input> : <input> Panama<br>
+           Japan       <input> : <input> Senegal<br>
+           Polen       <input> : <input> Kolumbien<br>
      </div>
          
         

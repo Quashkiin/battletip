@@ -11,10 +11,10 @@ include_once 'header.php';
     <div class="item2"> 
       <aside>
         <ul>
-            <li>Tippübersicht</li>
+            <a href="tippuebersicht.php"><li>Tippübersicht</li></a>
             <a href="tippabgabe.php"><li>Tippabgabe</li></a>
-            <li>Spielplan</li>
-            <li>Tabelle</li>
+            <a href="spielergebnisse.php"><li>Spielergebnisse</li></a>
+            <a href="tabelle.php"><li>Tabelle</li></a>
             <li>Spielregeln</li>
             <li>Mein Profil</li>
           

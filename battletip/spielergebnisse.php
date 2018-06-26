@@ -58,7 +58,7 @@ session_start();
     <div class="item2"> 
       <aside>
         <ul>
-            <a href="tippuebersicht.php"><li>Tippübersicht</li></a>
+             <a href="tippuebersicht.php"><li>Tippübersicht</li></a>
             <a href="tippabgabe.php"><li>Tippabgabe</li></a>
             <a href="spielergebnisse.php"><li>Spielergebnisse</li></a>
             <a href="tabelle.php"><li>Tabelle</li></a>
@@ -72,7 +72,26 @@ session_start();
 <!--MAIN-SCREEN-->
     <div class="item3">
         
-       <h1>Mein Tippspiel</h1>  
+       <h1>Spielergebnisse</h1>  
+        
+             <ul class="spieltage-ergebnisse">
+          <a href="ergebniss_1.php"><li>Spieltag 1</li></a>
+          <a href=""><li>Spieltag 2</li></a>
+          <a href=""><li>Spieltag 3</li></a>
+          <a href=""><li>Spieltag 4</li></a>
+          <a href=""><li>Spieltag 5</li></a>
+          <a href=""><li>Spieltag 6</li></a>
+          <a href=""><li>Spieltag 7</li></a>
+          <a href=""><li>Achtelfinale</li></a>
+         <a href=""><li>Viertelfinale</li></a>
+         <a href=""><li>Halbfinale</li></a>
+         <a href=""><li>Finale</li></a>
+         
+         
+     
+        
+        
+        </ul>
         
       </div>
 
@@ -82,4 +101,3 @@ session_start();
 
 include_once 'footer.php';
 ?>
-    

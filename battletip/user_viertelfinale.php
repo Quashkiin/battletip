@@ -56,10 +56,10 @@ if (isset($_SESSION['u_id'])){
         
         <div class="begegnungen-bg">
             <ul class="user_begegnungen">
-                <li>14.06.18 17:00 Russland : Suadi-Arabien<input> :<input></li>
-                <li>15.06.18 14:00 Ägypten : Uruguay<input> : <input></li>
-                 <li>14.06.18 17:00 Marokko : Iran<input> :<input></li>
-                <li>15.06.18 14:00 Portugal : Spanien<input> : <input></li>
+                <li>06.07.18 16:00 Sieger AF2 : Sieger AF1<input> :<input></li>
+                <li>06.07.18 20:00 Sieger AF5 : Sieger AF6<input> : <input></li>
+                 <li>07.07.18 16:00 Sieger AF7 : Sieger AF8<input> :<input></li>
+                <li>07.07.018 20:00 Sieger AF3 : Sieger AF4<input> : <input></li>
        
             </ul>
               <button>Tipps speichern</button>

@@ -56,12 +56,12 @@ if (isset($_SESSION['u_id'])){
         
         <div class="begegnungen-bg">
             <ul class="user_begegnungen">
-                <li>14.06.18 17:00 Russland : Suadi-Arabien<input> :<input></li>
-                <li>15.06.18 14:00 Ägypten : Uruguay<input> : <input></li>
-                 <li>14.06.18 17:00 Marokko : Iran<input> :<input></li>
-                <li>15.06.18 14:00 Portugal : Spanien<input> : <input></li>
-                 <li>14.06.18 17:00 Frankreich : Australien<input> :<input></li>
-                <li>15.06.18 14:00 Argentinien : Island<input> : <input></li>
+                <li>21.06.18 14:00 Dänemark : Australien<input> :<input></li>
+                <li>21.06.18 17:00 Frankreich : Peru<input> : <input></li>
+                 <li>21.06.18 20:00 Argentinien : Kroatien<input> :<input></li>
+                <li>22.06.18 14:00 Brasilien : Costa Rica<input> : <input></li>
+                 <li>22.06.18 17:00 Nigeria : Island<input> :<input></li>
+                <li>22.06.18 20:00 Serbien : Schweiz<input> : <input></li>
     
             </ul>
             

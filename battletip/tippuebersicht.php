@@ -72,8 +72,48 @@ session_start();
 <!--MAIN-SCREEN-->
     <div class="item3">
         
-       <h1>Mein Tippspiel</h1>  
+       <h1>Tippübersicht</h1>  
         
+        
+         <table id="user_table">
+  <tr>
+    <th>Position</th>
+    <th>Name</th> 
+    <th>Punkte</th>
+     
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Marc</td>
+    <td>40</td>
+    
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Petri</td>
+    <td>33</td>
+     
+  </tr>
+  <tr>
+    <td>3</td>
+      
+           <?php
+      
+        $username = $_SESSION['u_username'];
+
+
+    echo "<td> $username </td>";
+        
+    ?>  
+   
+  </tr>
+        <tr>
+    <td>4</td>
+    <td>-</td>
+    <td>-</td>
+  
+  </tr>
+</table>
       </div>
 
 

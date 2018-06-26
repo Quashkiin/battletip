@@ -11,7 +11,8 @@ include_once 'header.php';
         <h3>Ergebnisse eintragen: </h3>
        
         <div class="begegnungen">
-         Russland <input> : <input> Saudi-Arabien<br>
+         Verlierer HF1 <input> : <input> Verlierer HF2<br>
+         Sieger HF1 <input> : <input> Sieger HF2<br>
     
      </div>
          
