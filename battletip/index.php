@@ -1,39 +1,17 @@
 
-
-
-
-
-<!-- TODO
-
-
--FUNKTION EINFÜGEN BEI ADMIN: SPIELERGEBNISSE EINGABE DER DATEN ÜBER INPUTE FELDER
-
--TEXT EINFÜGEN BEI USERS: SPIELREGELN WERDEN IM MAIN BEREICH DER WEBSITE ANGEZIEGT
-
--FUNKTIONEN EINFÜGEN BEI USERS: SPIELPAARUNGEN; SPIEL-ERGEBNISSE; TIPPSPIEL(RANGLISTE)
-
-
--->
-
-
-
-
-
-
-
 <?php
+//PHP Datei, die Navbar und Sidebar included
 include_once 'header.php';
  
 ?>
 
      
-
+<!-- Unterscheidung angezeigter HTML ELemente je nachdem ob User oder Admin angemeldet ist-->
     <div class="item2"> 
       <aside>
         <ul>
-          <a href="profile.php"><li>Mein Profil</li></a>
-          <a href="myTipgames.php"><li>Meine Tippspiel</li></a>
-          <a href="gameRules.php"><li>Spielregeln</li></a> 
+          <a href="myTipgames.php"><li>Mein Tippspiel</li></a>
+          <a href="spielregeln.php"><li>Spielregeln</li></a> 
         </ul>
       </aside>
     </div>
@@ -53,10 +31,8 @@ if (isset($_SESSION['u_id'])){
     <div class="item2"> 
       <aside>
         <ul>
-          <a href="profile.php"><li>ADMIN Profil</li></a>
           <a href="spielverwaltung.php"><li>Spielverwaltung</li></a>
           <a href="#"><li>Spielregeln bearbeiten</li></a>
-          <a href="startTipgame.php"><li>Neues Tippspiel starten</li></a>
         </ul>
       </aside>
     </div>';
@@ -98,16 +74,8 @@ if (isset($_SESSION['u_id'])){
 
 
 <?php
-
+//PHP Datei die den footer zur Verfügung stellt 
 include_once 'footer.php';
 ?>
     
     
-    <!--section class="main-container">
-        <div class="main-wrapper"> 
-          
-        </div>
-    
-    </section-->
-    
-

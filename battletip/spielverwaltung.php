@@ -3,12 +3,11 @@ include_once 'header.php';
  
 ?>
 
-     
+     <!-- Eingaben der Ergebnisse durch den Admin -->
 
     <div class="item2"> 
       <aside>
         <ul>
-          <a href="profile.php"><li>Mein Profil</li></a>
           <a href="myTipgames.php"><li>Meine Tippspiel</li></a>
           <a href="gameRules.php"><li>Spielregeln</li></a> 
         </ul>
@@ -30,7 +29,6 @@ if (isset($_SESSION['u_id'])){
     <div class="item2"> 
       <aside>
         <ul>
-          <a href="profile.php"><li>ADMIN Profil</li></a>
           <a href="spielverwaltung.php"><li>Spielverwaltung</li></a>
           <a href="#"><li>Spielregeln bearbeiten</li></a>
     

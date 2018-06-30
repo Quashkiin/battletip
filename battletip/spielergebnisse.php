@@ -5,6 +5,9 @@ session_start();
 ?>
 
 
+<!-- Seite zum Anzeigen der Spielergebnisse-->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,8 +65,8 @@ session_start();
             <a href="tippabgabe.php"><li>Tippabgabe</li></a>
             <a href="spielergebnisse.php"><li>Spielergebnisse</li></a>
             <a href="tabelle.php"><li>Tabelle</li></a>
-            <li>Spielregeln</li>
-            <li>Mein Profil</li>
+            <a href="spielregeln.php"><li>Spielregeln</li></a>
+           
           
         </ul>
       </aside>

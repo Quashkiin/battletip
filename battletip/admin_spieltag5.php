@@ -17,6 +17,7 @@ include_once 'header.php';
            England     <input> : <input> Panama<br>
            Japan       <input> : <input> Senegal<br>
            Polen       <input> : <input> Kolumbien<br>
+              <button>Eingaben speichern</button>
      </div>
          
         

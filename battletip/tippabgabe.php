@@ -5,7 +5,7 @@ include_once 'header.php';
  
 ?>
 
-     
+   <!-- Seite zum Abgeben von Tipps auf Seiten des Users-->  
 
    <!--SIDE-BAR-->
     <div class="item2"> 
@@ -15,8 +15,8 @@ include_once 'header.php';
             <a href="tippabgabe.php"><li>Tippabgabe</li></a>
             <a href="spielergebnisse.php"><li>Spielergebnisse</li></a>
             <a href="tabelle.php"><li>Tabelle</li></a>
-            <li>Spielregeln</li>
-            <li>Mein Profil</li>
+            <a href="spielregeln.php"><li>Spielregeln</li></a>
+        
           
         </ul>
       </aside>
@@ -84,10 +84,5 @@ include_once 'footer.php';
 ?>
     
     
-    <!--section class="main-container">
-        <div class="main-wrapper"> 
-          
-        </div>
-    
-    </section-->
+
     

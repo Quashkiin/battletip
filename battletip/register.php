@@ -2,6 +2,8 @@
 include_once 'header.php';
 ?>
     
+<!-- HTML Gerüst für Sign-Up und den Button dafür-->
+<!-- register_test.php stellt die funktionalität dafür bereit-->
 
 <!--MAIN-SCREEN-->
     <div class="item3">
@@ -14,7 +16,8 @@ include_once 'header.php';
               <button type="submit" name="submit">Sign-Up</button>
           </form>
     </div>
-        
+ 
+
 <?php 
 include_once 'footer.php';
 ?>

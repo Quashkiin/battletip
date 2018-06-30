@@ -1,4 +1,8 @@
+
+
 <?php
+
+//Verbindung zur Datenbank
 
 $host = 'localhost';
 $user = 'root';

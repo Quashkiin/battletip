@@ -58,7 +58,6 @@ session_start();
     <div class="item2"> 
       <aside>
         <ul>
-          <a href="profile.php"><li>Mein Profil</li></a>
           <a href="myTipgames.php"><li>Meine Tippspiele</li></a>
           <a href="gameRules.php"><li>Spielregeln</li></a>
         

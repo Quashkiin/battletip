@@ -19,6 +19,8 @@ include_once 'header.php';
            Argentinien  <input> : <input> Island<br>
            Peru         <input> : <input> Dänemark<br>
            Kroatien     <input> : <input> Nigeria<br>
+            
+            <button>Eingaben speichern</button>
      </div>
          
         

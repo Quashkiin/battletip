@@ -17,7 +17,7 @@ include_once 'header.php';
            Portugal   <input> : <input> Marokko<br>
            Uruguay    <input> : <input> Saudi-Arabien<br>
            Iran       <input> : <input> Spanien<br>
-          
+            <button>Eingaben speichern</button>
      </div>
          
         

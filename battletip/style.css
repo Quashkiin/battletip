@@ -145,7 +145,7 @@ a{
     margin-right:50px;
 }
 
-/*--ASIDE--*/
+/*--SIDEBAR--*/
 .item2 aside{
     font-size:16px;
 
@@ -187,7 +187,7 @@ a{
 
 /*--MAIN SCREEN--*/
 .item3{
-    min-height: 760px; /* Wieder ändern*/
+    min-height: 760px; 
     background-image: url("images/wm-img.png");
     background-size:240px 135px;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ a{
     margin: 10%;
 }
 
-/*-----------FOOTER------------------*/
+/*--FOOTER---*/
 .item4 {
   
 }
@@ -352,10 +352,14 @@ a{
 /* TABELLE */ 
 
 #table{
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     background-color: #ddd;
     color: black;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 50%;
+    margin-bottom: 20px;
+
   
 }
 

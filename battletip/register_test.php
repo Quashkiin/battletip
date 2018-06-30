@@ -1,5 +1,8 @@
 <?php
 
+// Aufnehmen des Users in die Datenbank und testen der Bedingungen
+
+
 if(isset($_POST['submit'])){
     
     include_once 'db.php';

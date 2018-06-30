@@ -4,6 +4,7 @@ session_start();
 
 ?>
 
+<!-- Anzeigen der User Rangliste -->
 
 <!DOCTYPE html>
 <html>
@@ -62,8 +63,8 @@ session_start();
             <a href="tippabgabe.php"><li>Tippabgabe</li></a>
             <a href="spielergebnisse.php"><li>Spielergebnisse</li></a>
             <a href="tabelle.php"><li>Tabelle</li></a>
-            <li>Spielregeln</li>
-            <li>Mein Profil</li>
+            <a href="spielregeln.php"><li>Spielregeln</li></a>
+            
           
         </ul>
       </aside>
@@ -75,45 +76,21 @@ session_start();
        <h1>Tippübersicht</h1>  
         
         
-         <table id="user_table">
-  <tr>
-    <th>Position</th>
-    <th>Name</th> 
-    <th>Punkte</th>
-     
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Marc</td>
-    <td>40</td>
-    
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Petri</td>
-    <td>33</td>
-     
-  </tr>
-  <tr>
-    <td>3</td>
-      
-           <?php
-      
-        $username = $_SESSION['u_username'];
-
-
-    echo "<td> $username </td>";
+      <table id="user_table">
         
-    ?>  
-   
-  </tr>
-        <tr>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-  
-  </tr>
-</table>
+        <th>User</th>
+        
+          <?php
+          
+          // Anzeigen der Datenbank table in einer HTML Tabelle
+          include 'createUserTable.php';
+          
+          ?>
+        
+        
+        </table>  
+        
+        
       </div>
 
 
